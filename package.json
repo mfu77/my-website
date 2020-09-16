@@ -1,0 +1,20 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "mehmet fatih",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfu77/my-website.git"
+  },
+  "author": "mehmet fatih",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfu77/my-website/issues"
+  },
+  "homepage": "https://github.com/mfu77/my-website#readme",
+  "keywords": []
+}
