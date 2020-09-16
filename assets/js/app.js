@@ -4,12 +4,16 @@ document.addEventListener("DOMContentLoaded",function(){
 	});
 });
 
-var x = document.getElementById("myAudio"); 
+var myAudio = document.getElementById("myAudio");
+var isPlaying = false;
 
-function playAudio() { 
-  x.play(); 
-} 
+function togglePlay() {
+	isPlaying ? myAudio.pause() : myAudio.play();
+}
 
-function pauseAudio() { 
-  x.pause(); 
-} 
+myAudio.onplaying = function() {
+	isPlaying = true;
+};
+myAudio.onpause = function() {
+	isPlaying = false;
+};
